@@ -2,12 +2,31 @@
 <html>
   <head>
     <title>Website</title>
+
+    <style>
+      .header {
+        display: flex;
+        flex-direction: row;
+        background-color: rgb(174, 45, 45);
+        justify-content: space-around;
+      }
+
+      .element {
+        margin: 15px;
+      }
+    </style>
   </head>
   <body>
-    <div>
-      <div>Menu</div>
-      <div>About Us</div>
-      <div>Location</div>
+    <div class="header">
+      <div class="element">
+        <button>Menu</button>
+      </div>
+      <div class="element">
+        <button>About Us</button>
+      </div>
+      <div class="element">
+        <button>Location</button>
+      </div>
     </div>
   </body>
 </html>
