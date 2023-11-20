@@ -2,31 +2,20 @@
 <html>
   <head>
     <title>Website</title>
-
-    <style>
-      .header {
-        display: flex;
-        flex-direction: row;
-        background-color: rgb(174, 45, 45);
-        justify-content: space-around;
-      }
-
-      .element {
-        margin: 15px;
-      }
-    </style>
+      <link rel="stylesheet" href="style/header.css">
   </head>
   <body>
     <div class="header">
-      <div class="element">
-        <button>Menu</button>
-      </div>
-      <div class="element">
-        <button>About Us</button>
-      </div>
-      <div class="element">
-        <button>Location</button>
-      </div>
+      <div class="left-side">
+        <button class="header-button">Menu</button>
+        <button class="header-button">About Us</button>
+        <button class="header-button">Location</button>
+        <button class="header-button">Reservations</button>
+        <button class="header-button">Contact Us</button>
+        </div>
+        <div class="right-side">
+          <input type="input" type="text" placeholder="Search">
+        </div>
     </div>
   </body>
 </html>
