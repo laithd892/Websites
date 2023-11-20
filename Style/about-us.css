@@ -1,0 +1,10 @@
+.about-us {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 20px;
+  position: relative;
+}
+
+.bio-info {
+  border-radius: 1px;
+}
