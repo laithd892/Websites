@@ -3,8 +3,26 @@
   grid-template-columns: 1fr;
   column-gap: 20px;
   position: relative;
+  margin-top: 100px;
 }
 
 .bio-info {
-  border-radius: 1px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px 2px #888888;
+  margin-bottom: 12px;
+  padding: 5px 10px;
+
+}
+
+.text-style {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  text-align: center;
+}
+
+.image-style {
+  border-radius: 4px;
+  height: 300px;
+  object-fit: cover;
 }

@@ -1,10 +1,11 @@
 .header {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   background-color: rgb(174, 45, 45);
   
   
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   right: 0;
@@ -18,6 +19,7 @@
 }
 
 .header-button:hover {
+  cursor: pointer;
   background-color: white;
   color: rgb(174, 45, 45);
   transition: .4s;
@@ -33,3 +35,4 @@
   justify-content: center;
   margin: 12px;
 }
+
