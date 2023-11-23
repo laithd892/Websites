@@ -6,29 +6,47 @@
       <link rel="stylesheet" href="style/about-us.css">
   </head>
   <body>
-    <div class="header">
+    <div class="tab">
       <div class="left-side">
-        <button class="header-button">About Us</button>
-        <button class="header-button">Menu</button>
-        <button class="header-button">Location</button>
-        <button class="header-button">Reservations</button>
-        <button class="header-button">Contact Us</button>
+        <button class="tablinks" onclick="openTab(event, 'Aboutustab')">About Us</button>
+        <button class="tablinks" onclick="openTab(event, 'Menutab')">Menu</button>
+        <button class="tablinks" onclick="openTab(event, 'Location')">Location</button>
+        <button class="tablinks" onclick="openTab(event, 'Reservations')">Reservations</button>
+        <button class="tablinks" onclick="openTab(event, 'Contactus')">Contact Us</button>
       </div>
-        <div class="right-side">
-          <input type="input" type="text" placeholder="Search">
-        </div>
+        
+      <div class="right-side">
+        <input type="input" type="text" placeholder="Search">
+      </div>
     </div> 
 
-    <div class="about-us">
+    <div id="Aboutustab" class="tabcontent">
       <div class="bio-info">
         <p class="text-style">
           Founded in 1792, Ugly Gyros is the oldest gyro establishment in the United States. Orginially founded by Haytham Abu Lehma, the first and only location was opened in Chicago and has been there ever since. Haytham's brother, Bandora, helped him build the restuarant until he began his voyage to the North Pole - Never to be seen again. Over 500 million customers have served over the years and we could not be more proud!
         </p>
       </div>
-      <div>
+    <div>
       <img class="image-style" src="Images/Vegeta_Dragon_Ball.jpg">
       </div>
         <p class="">Photo of owner, circa 1900</p>
     </div>
+
+    <div id="Menutab" class="tabcontent">
+      <p>This is some text for testing...</p>
+    </div>
+
+    <div id="Location" class="tabcontent">
+      <p>Placeholder...</p>
+    </div>
+
+    <div id="Reservations" class="tabcontent">
+      <p>Text...</p>
+    </div>
+
+    <div id="Contactus" class="tabcontent">
+      <p>Wait...</p>
+    </div>
+    <script src="Scripts/tabs.js"></script>
   </body>
 </html>

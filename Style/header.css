@@ -1,9 +1,8 @@
-.header {
+.tab {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   background-color: rgb(174, 45, 45);
-  
   
   position: fixed;
   top: 0;
@@ -11,14 +10,14 @@
   right: 0;
 }
 
-.header-button {
+.tablinks {
   border: none;
   color: white;
   background-color: rgb(174, 45, 45);
   padding: 20px 10px;
 }
 
-.header-button:hover {
+.tablinks:hover {
   cursor: pointer;
   background-color: white;
   color: rgb(174, 45, 45);
