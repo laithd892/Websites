@@ -7,7 +7,7 @@
 }
 
 .text-box-style {
-  height: 250px;
-  width: 745px;
   border-radius: 5px;
+  display: block;
+  margin-bottom: 10px;
 }
