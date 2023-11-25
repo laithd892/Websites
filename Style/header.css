@@ -3,6 +3,7 @@
   flex-direction: row;
   justify-content: space-between;
   background-color: rgb(174, 45, 45);
+  z-index: 100;
   
   position: fixed;
   top: 0;
