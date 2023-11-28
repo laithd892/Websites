@@ -1,0 +1,21 @@
+.menu-style {
+  display: flex;
+  justify-content: space-around;
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  border-radius: 5px;
+  color: lightgray;
+}
+
+.button-style {
+  color: white;
+  background-color: red;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
