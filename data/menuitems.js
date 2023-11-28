@@ -14,8 +14,4 @@ const menu = [{
 }];
 
 menu.forEach((menuItem) => {
-  const html = `
-    <button class="button-style">
-      Add Item
-    </button>`
 });
