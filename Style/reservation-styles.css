@@ -1,0 +1,15 @@
+.reservation-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.reservation-button, .num-of-guests, .party-size-style {
+  color: white;
+  background-color: red;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}

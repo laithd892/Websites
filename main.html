@@ -6,6 +6,7 @@
       <link rel="stylesheet" href="style/about-us.css">
       <link rel="stylesheet" href="Style/general.css">
       <link rel="stylesheet" href="Style/menu-styles.css">
+      <link rel="stylesheet" href="Style/reservation-styles.css">
   </head>
   <body>
     <div class="tab">
@@ -59,21 +60,22 @@
       <iframe class="store-location" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d380511.6920668976!2d-87.73196395!3d41.83373295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C%20IL!5e0!3m2!1sen!2sus!4v1700874453373!5m2!1sen!2sus" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </div>
     <!--Fourth page for reservations-->
-    <div id="Reservations" class="tabcontent" onclick="reservationMade();">
+    <div id="Reservations" class="tabcontent reservation-page" onclick="reservationMade();">
       <p>When would you like to dine with us? How many are in your party?</p>
-      <input class="party-size" type="date">
-      <select>
+      <input class="party-size party-size-style" type="date">
+      <select onclick="" class="num-of-guests">
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
         <option value="4">4</option>
         <option value="5">5</option>
       </select>
-      <button>Reserve</button>
+      <button class="reservation-button">Reserve</button>
     </div>
     
     <!-- for the output of the reservation date -->
     <div class="output"></div>
+
     <!--Fifith page with contact info-->
     <div id="Contactus" class="tabcontent">
       <div class="text-body-style">
