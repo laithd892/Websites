@@ -1,6 +1,6 @@
 const menu = [{
     name: 'Gyro',
-    descriptions: 'very good food, it will make you happy... hopefully!',
+    descriptions: 'very good food, it will make you happy... hopefully&#33;',
     priceCents: 1099
   },
   {
@@ -8,10 +8,12 @@ const menu = [{
     descriptions: 'Why is this on the menu',
     priceCents: 1299
   }, {
-    name: Gyro,
-    descriptions: 'very good food, Don&#8211;t eat it tho',
+    name: Idk,
+    descriptions: 'Idek man do whatever you want',
     priceCents: 1399
+},
+{
+  name: Whatever,
+    descriptions: 'Do whatever you want idk',
+    priceCents: 1899
 }];
-
-menu.forEach((menuItem) => {
-});
