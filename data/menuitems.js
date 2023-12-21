@@ -8,12 +8,12 @@ const menu = [{
     descriptions: 'Why is this on the menu',
     priceCents: 1299
   }, {
-    name: Idk,
+    name: 'Idk',
     descriptions: 'Idek man do whatever you want',
     priceCents: 1399
 },
 {
-  name: Whatever,
+  name: 'Whatever',
     descriptions: 'Do whatever you want idk',
     priceCents: 1899
 }];
