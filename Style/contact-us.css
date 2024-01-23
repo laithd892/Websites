@@ -1,0 +1,11 @@
+.comment-box {
+  display: grid;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.submit-button {
+  display: flex;
+  align-items: baseline;
+  margin-right: 500px;
+}

@@ -7,28 +7,3 @@
   border-radius: 5px;
   color: lightgray;
 }
-
-
-.button-style {
-  color: white;
-  background-color: red;
-  border: none;
-  padding: 10px 15px;
-  border-radius: 5px;
-  font-weight: bold;
-  cursor: pointer;
-}
-
-.button-style:hover {
-  box-shadow: 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.button-style:active {
-  color: red;
-  background-color: white;
-  border: solid;
-  border-width: 1px;
-  transition: .2s;
-  transition-duration: .4s;
-}
-
